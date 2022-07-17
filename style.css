@@ -503,6 +503,7 @@ section button{
 	margin-bottom: 0px;
 	margin-right: -25rem;
 Position: relative;
+Overflow-x: hidden;
 }
 
 .shortening-bar{
