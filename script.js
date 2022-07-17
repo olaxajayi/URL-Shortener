@@ -18,6 +18,10 @@ function zip(long, data) {
 	result.appendChild(longLink);
 	longLink.innerText = long;
 
+	let hr = document.createElement('hr');
+	hr.classList.add('hr');
+	result.appendChild(hr);
+	
 	let answer = document.createElement('div');
 	answer.classList.add('answer');
 	result.appendChild(answer);
@@ -47,6 +51,7 @@ btn.addEventListener('click', function(){
 	if (typeof inputFieldValue === 'string' && inputFieldValue.trim().length === 0) {
 		inputField.style.border = "2px solid #ff0000";
 		emptyField.innerText = "Please add a link";
+		btn.style.margin = "1.5rem 0rem 0rem 0rem";
 	}
 
 	else{
@@ -65,6 +70,14 @@ btn.addEventListener('click', function(){
 		});
 	}
 });
+
+
+
+
+
+
+
+
 
 
 		// .catch((error, long) => {
