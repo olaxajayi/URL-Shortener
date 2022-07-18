@@ -465,6 +465,8 @@ button{
 	flex-direction: column-reverse;
 	justify-content: space-between;
 	background-color: yellow;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .briefing{
@@ -501,9 +503,7 @@ section button{
 .intro img{
 	margin-top: -4rem;
 	margin-bottom: 0px;
-	margin-right: -25rem;
-Position: relative;
-Overflow-x: hidden;
+	margin-right: -20rem;
 }
 
 .shortening-bar{
